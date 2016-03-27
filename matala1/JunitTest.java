@@ -10,7 +10,7 @@ public class JunitTest {
 
 	@Test
 	public void test() throws IOException{
-		//shortestPath test
+		//shortestPath test, tests all the classes in the project 
 		WeighedDigraph test=new WeighedDigraph("mediumEWD");
 		DijkstraFind test1=new DijkstraFind(test);
 		double result=test1.shortestPath(2,202);
