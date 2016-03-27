@@ -109,7 +109,7 @@ public class DijkstraFind {
 
             nodePath.add(current);
         }
-      // System.out.println(path);
+     System.out.println(path);
         
 
         //return nodePath;
